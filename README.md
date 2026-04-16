@@ -1,1 +1,3 @@
 # recursive-lu-factorization
+
+This project implements a recursive LU factorization algorithm for dense square matrices in MATLAB, along with forward and backward substitution for solving linear systems. The implementation was benchmarked against MATLAB’s built-in lu function to analyze empirical cubic time complexity, relative factorization error, and solution residuals, including experiments on ill-conditioned matrices such as Hilbert matrices. The solver was further applied to covariance-based linear systems in a minimum-variance portfolio optimization setting to evaluate numerical stability and practical performance
